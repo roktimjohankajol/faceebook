@@ -1,0 +1,25 @@
+@media screen and (max-width: 1230px){
+    .HeaderLogoArea{
+        width:100%;
+        margin:auto;
+        text-align:center;
+    } 
+    .HeaderLoginArea{
+        width:90%;
+    }
+    .HeaderLoginArea a{
+        margin-left:70px;
+    }
+    .Loginbtn{
+        margin:0;
+    }
+    .LeftSectionArea{
+        width:100%;
+    }
+    .RightSectionArea{
+        width:100%;
+    }
+    .topFooter ul li{
+        margin:0 6px;
+    }
+}

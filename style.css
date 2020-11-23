@@ -1,0 +1,236 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.headerArea{
+    background-color:#3B5998;
+    overflow:hidden;
+}
+.middleHeaderArea{
+    width:70%;
+    margin:auto;
+}
+.HeaderLogoArea{
+    float:left;
+    width:60%;
+}
+.HeaderLogoArea img{
+    width:200px;
+    height:80px;
+}
+.HeaderLoginArea::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.HeaderLoginArea{
+    float:left;
+    width:40%;
+    margin-top:14px;
+}
+.HeaderLoginArea input[type="text"], 
+.HeaderLoginArea input[type="password"]{
+   width:140px;
+}
+.EmailArea{
+    float:left;
+    width:42%;
+    overflow: hidden;
+}
+.EmailArea label{
+    color:#fff;
+}
+.PasswordArea{
+    float:left;
+    width:42%;
+}
+.PasswordArea label{
+    color:#fff;
+}
+.PasswordArea a{
+    margin-top: 2px;
+    color:bisque;
+    display: block;
+}
+.PasswordArea a:hover{
+    text-decoration: underline;
+}
+.Loginbtn{
+    float:left;
+    font-size:14px;
+    width:16%;
+    margin-top:16px;
+    background:#4c659c;
+    border:1px solid #2e4982;
+    text-align:center;
+    padding:4px 10px;
+    color:#fff;
+    cursor:pointer;
+    border-radius:3px;
+}
+.Loginbtn:hover{
+    background:#3D5A99;
+    border:1px solid #2c4782;
+    border-radius:3px;
+}
+
+
+/*Section Area Strat here-*/
+
+
+
+
+.HeaderSectionArea::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.HeaderSectionArea{
+    background:linear-gradient(#fff, #D3D8E8);
+}
+.middleSectionArea{
+    width:70%;
+    margin:auto;
+}
+.LeftSectionArea{
+    width:55%;
+    float:left;
+}
+.middleSectionArea{
+    margin-top:15px;
+}
+.RightSectionArea{
+    width:40%;
+    float:right;
+}
+.FLNameArea{
+    width:100%;
+    box-sizing:border-box;
+    
+}
+.Fname{
+    width:48%;
+    float:left;
+    margin-right:4%;
+}
+.Lname{
+    width:48%;
+    float:left;
+}
+.RightSectionArea input[type="text"]{
+    height:10px;
+    padding:13px 0;
+    width:100%;
+    margin:5px 0;
+    border-radius:5px;
+    border:1px solid #8080803d;
+    padding-left:8px;
+}
+.BirthdayArea select{
+    border:1px solid #8080803d;
+    padding:5px 8px;
+    margin-bottom:10px;
+    float:left;
+}
+.BirthdayArea{
+    overflow:hidden;
+}
+.RightSectionArea h1{
+    font-size:40px;
+    font-weight: 600;
+    margin:0;
+}
+.font{
+    font-size: 22px;
+    font-weight: 400px;
+    margin:15px 0;
+}
+
+.birthdayLink{
+    float:left;
+    width:140px;
+    margin-left: 5px;
+    margin-top:-14px;
+    line-height:1;
+}
+.GenderArea label{
+    font-size:19px;
+    margin:10px 5px;
+}
+.GenderArea a{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+.birthdayLink a{
+    color:cornflowerblue;
+}
+.Signup{
+    box-sizing:border-box;
+    background-color:#69a74e;
+    background:linear-gradient(#67ae55, #578843);
+    font-size:19px;
+    padding:7px 30px;
+    color:#fff;
+    border-radius:4px;
+    font-weight:400px;
+    border:1px solid #285f11;
+}
+.Signup:hover{
+    background:linear-gradient(#578843, #67ae55);
+}
+h4 a{
+    color:cornflowerblue;
+}
+h4{
+    font-size:16px;
+    color:grey;
+}
+.middleFooterArea{
+    width:70%;
+    margin:auto !important;
+}
+.middleFooterArea ul{
+    margin:0;
+    padding:0;
+}
+.middleFooterArea ul li{
+    list-style:none;
+}
+.middleFooterArea a{
+    color:#21396deb;
+}
+.topFooter ul li{
+    float:left;
+    margin:0 8px;    
+}
+.topFooter ul{
+    margin-top:15px;
+}
+hr{
+    border:0;
+    border-bottom:1px solid grey;
+}
+.topFooter ul li a{
+    text-decoration:none;
+}
+.topFooter ul{
+    margin-top:20px;
+}
+.bottomFooter ul li{ 
+    float:left;
+    margin:0 8px;
+}
+.bottomFooter ul li a{ 
+    text-decoration:none;
+}
+.bottomFooter{
+    overflow:hidden;
+}
+.lastFooter{
+    width:69%;
+    margin:auto;
+    font-size:14px;
+    color:grey;
+}
